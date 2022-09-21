@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, url_for, redirect
 import joblib
 from Text_Transformer import text_transformer as tt
-import gunicorn
+
 
 # load our model file
 model = joblib.load('spam_sms_model.mnb')
