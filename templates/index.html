@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{url_for('static' , filename ='CSS/style.css')}}">
+</head>
+<body>
+
+<form action="{{url_for('predict')}}" method="post">
+
+  <div class="container">
+
+    
+    <center>
+        <img src="{{url_for('static',filename='IMAGES/pngwing.com.png')}}" alt="Mail Image" width="65" height="65"/>
+        <h1>
+
+            <u>Spam Mail Classifier</u>
+        </h1>
+    </center>
+    
+    <hr>
+
+    <CENTER>
+        <label for="textarea"><b>   Enter or Copy-paste  Message here  </b></label>
+            <textarea class="textarea" id="textarea" name="input" > </textarea>
+    </CENTER>
+
+
+    <button type="submit" class="predictbtn">Predict</button>
+
+  </div>
+  
+  <div class="container result">
+    <p>{{ prediction_text }}</p>
+  </div>
+</form>
+
+</body>
+</html>
+  

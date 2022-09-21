@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+h1{color: #9D2727}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+    width:800px;
+    margin: 25px 0px 10px 400px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 30px;
+
+}
+
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #9D2727;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the textarea */
+
+.textarea{
+    width: 100%;
+    height: 145px;
+    margin: 20px 0px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(10, 117, 110, 0.9);
+    background: #D9D9D9;
+    border-radius: 15px;
+    font-size:18px;
+    resize:none;
+
+}
+
+/* Set a style for the submit button */
+.predictbtn {
+  background-color: black;
+  color: white;
+  padding: 16px 15px;
+  margin: 8px 255px;
+  border: none;
+  cursor: pointer;
+  width: 212px;
+  height: 57px;
+  opacity: 0.9;
+  border-radius: 37px;
+  font-size:18px;
+}
+
+/* Set for button */
+.predictbtn:hover {
+  opacity: 1;
+}
+
+
+/* for result*/
+.result {
+  background-color: #9D2727;
+  text-align: center;
+  font-size:18px;
+  font-weight:bold;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.8;
+}
+
