@@ -18,7 +18,9 @@ h1{color: #9D2727}
 
 }
 
-h7{color:white}
+h7{color:white;
+  margin: 25px 0px 10px 1000px;
+}
 
 
 /* Overwrite default styles of hr */
@@ -68,7 +70,7 @@ hr {
   background-color: #9D2727;
   text-align: center;
   font-size:18px;
-  font-weight:bold;
+  font-weight:normal;
   color:white;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0.8;
