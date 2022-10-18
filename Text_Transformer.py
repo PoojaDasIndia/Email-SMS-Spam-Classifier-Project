@@ -11,7 +11,7 @@ def text_transformer(text):
     text = nltk.word_tokenize(text)
 
     # 3. Removing special characters
-    list_storage = [word for word in text if word.isalpha()]
+    list_storage = [word for word in text if word.isalnum()]
 
     # 4.  Removing stop words
     text = list_storage.copy()
