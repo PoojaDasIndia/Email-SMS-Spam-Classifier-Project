@@ -3,6 +3,9 @@
 ## Heroku link
 ### https://smsmailspamclassifier22.herokuapp.com/
 
+## Azure link
+### https://emailspam.azurewebsites.net/
+
 **click this**<br>
 [E-Mail/SMS Spam Classifier](https://smsmailspamclassifier22.herokuapp.com/)
 
