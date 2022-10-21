@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'EmailSapam'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_79091C12CFAA4E06B780911E37675DBC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CB3EDCC949CF4ACFA276D9A66A60414A }}
